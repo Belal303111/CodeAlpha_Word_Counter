@@ -13,11 +13,11 @@ public class Main {
         f.setLayout(null);
         f.getContentPane().setBackground(Color.GREEN);
         f.setSize(600,600);
-        JLabel l=new JLabel("This is My page");
-        l.setBounds(250,300,150,70);
+        JLabel l=new JLabel("This is My page to calculate the number of words in a string");
+        l.setBounds(50,-20,400,70);
         f.add(l);
         JTextArea A =new JTextArea();
-        A.setBounds(50,50,300,100);
+        A.setBounds(50,50,500,200);
         f.add(A);
         JButton b =new JButton("Press the button");
         b.setBounds(20,250,150,30);
